@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Time API</title>
+    <style>
+        body{
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="jumbotron">
+    <h1 class="display-4">API Time</h1>
+    <hr class="my-4">
+    <button type="button" class="btn btn-info">Time</button>
+    <br><br>
+    <p></p>
+</div>
+
+<label for="cities">Choose a city:</label>
+
+<select id="cities">
+    <option>Name</option>
+    <option value="Miami">Miami</option>
+    <option value="London">London</option>
+    <option value="Chicago">Chicago</option>
+    <option value="Rome">Rome</option>
+    <option value="Boston">Boston</option>
+</select>
+
+<table class="table">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">City</th>
+        <th scope="col">Temperature C</th>
+        <th scope="col">Sky Conditions</th>
+        <th scope="col">Humidity</th>
+    </tr>
+    </thead>
+
+</table>
+
+<label>Choose city:
+<input type="text" name="cityName" id="cityName"></label>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+<script
+        src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+        integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+        crossorigin="anonymous"></script>
+<!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="time.js"></script>
+</body>
+</html>
+
+
